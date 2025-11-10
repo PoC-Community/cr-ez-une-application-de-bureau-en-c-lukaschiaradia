@@ -15,12 +15,12 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TodoListApp
-build_property.ProjectDir = /mnt/c/Users/lukas/OneDrive/Documents/Epitech Project/cr-ez-une-application-de-bureau-en-c-lukaschiaradia/src/
+build_property.ProjectDir = /mnt/c/Users/Lukas/OneDrive/Documents/Epitech Project/cr-ez-une-application-de-bureau-en-c-lukaschiaradia/src/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[/mnt/c/Users/lukas/OneDrive/Documents/Epitech Project/cr-ez-une-application-de-bureau-en-c-lukaschiaradia/src/App.axaml]
+[/mnt/c/Users/Lukas/OneDrive/Documents/Epitech Project/cr-ez-une-application-de-bureau-en-c-lukaschiaradia/src/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/mnt/c/Users/lukas/OneDrive/Documents/Epitech Project/cr-ez-une-application-de-bureau-en-c-lukaschiaradia/src/MainWindow.axaml]
+[/mnt/c/Users/Lukas/OneDrive/Documents/Epitech Project/cr-ez-une-application-de-bureau-en-c-lukaschiaradia/src/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

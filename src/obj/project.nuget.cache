@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2yKHXKtLc9Hp2345fB/YutF9y33gIeWf+WSv4rqElaikM3ubNcqkGO1JqULih+tBdQdPmQm1bGvLAgycHrwSYQ==",
+  "dgSpecHash": "aJ6hfk3IPtc6bBpUh1cb37uDQdNgxwSgVUk86l+eKPe07YMrnCjwWjRYv46TGLOJ4BWRvsxW4s7VQmcyGRGA3w==",
   "success": true,
-  "projectFilePath": "/mnt/c/Users/lukas/OneDrive/Documents/Epitech Project/cr-ez-une-application-de-bureau-en-c-lukaschiaradia/src/TodoListApp.csproj",
+  "projectFilePath": "/mnt/c/Users/Lukas/OneDrive/Documents/Epitech Project/cr-ez-une-application-de-bureau-en-c-lukaschiaradia/src/TodoListApp.csproj",
   "expectedPackageFiles": [
     "/home/lukas/.nuget/packages/avalonia/11.3.4/avalonia.11.3.4.nupkg.sha512",
     "/home/lukas/.nuget/packages/avalonia.angle.windows.natives/2.1.25547.20250602/avalonia.angle.windows.natives.2.1.25547.20250602.nupkg.sha512",

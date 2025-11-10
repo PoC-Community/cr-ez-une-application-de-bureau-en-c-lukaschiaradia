@@ -1,36 +1,38 @@
 using Avalonia.Controls;
 using Avalonia.Interactivity;
-using System.Collections.ObjectModel;
+using TodoListApp.Models;
+using TodoListApp.ViewModels;
 
 namespace TodoListApp;
 
 public partial class MainWindow : Window
 {
-    private ObservableCollection<string> _tasks = new();
+    private MainWindowViewModel VM => (MainWindowViewModel)DataContext!;
 
     public MainWindow()
     {
         InitializeComponent();
-        TaskList.ItemsSource = _tasks;
+        DataContext ??= new MainWindowViewModel();
 
-        AddButton.Click += OnAddClick;
-        DeleteButton.Click += OnDeleteClick;
+        AddButton.Click += OnAdd;
+        DeleteButton.Click += OnDelete;
     }
 
-    private void OnAddClick(object? sender, RoutedEventArgs e)
+    private void OnAdd(object? sender, RoutedEventArgs e)
     {
-        if (!string.IsNullOrWhiteSpace(TaskInput.Text))
+        var title = TaskInput.Text?.Trim();
+        if (!string.IsNullOrEmpty(title))
         {
-            _tasks.Add(TaskInput.Text);
+            VM.Tasks.Add(new TaskItem { Title = title });
             TaskInput.Text = string.Empty;
         }
     }
 
-    private void OnDeleteClick(object? sender, RoutedEventArgs e)
+    private void OnDelete(object? sender, RoutedEventArgs e)
     {
-        if (TaskList.SelectedItem is string selected)
+        if (TaskList.SelectedItem is TaskItem item)
         {
-            _tasks.Remove(selected);
+            VM.Tasks.Remove(item);
         }
     }
 }
