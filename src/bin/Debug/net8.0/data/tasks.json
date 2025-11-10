@@ -1,0 +1,22 @@
+[
+  {
+    "Id": "68056da4-575a-46fe-81ee-5cbd1fc148fe",
+    "Title": "D\u00E9couvrir Avalonia",
+    "IsCompleted": false
+  },
+  {
+    "Id": "48e7b3b4-a91f-4f8b-9f3b-0d0351276d29",
+    "Title": "Cr\u00E9er la liste",
+    "IsCompleted": true
+  },
+  {
+    "Id": "7eb218e4-4afe-49b4-8f79-c4724538e13c",
+    "Title": "Relier le CheckBox",
+    "IsCompleted": true
+  },
+  {
+    "Id": "5019b21c-b890-4d68-a43e-6263a4bdc9b5",
+    "Title": "yo",
+    "IsCompleted": true
+  }
+]
