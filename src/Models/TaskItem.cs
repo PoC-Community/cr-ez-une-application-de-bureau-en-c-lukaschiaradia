@@ -1,7 +1,11 @@
-namespace TodoListApp.Models;
+using System;
 
-public class TaskItem
+namespace TodoListApp.Models
 {
-    public string Title { get; set; } = string.Empty;
-    public bool IsCompleted { get; set; } = false;
+    public class TaskItem
+    {
+        public string Id { get; set; } = Guid.NewGuid().ToString();
+        public string Title { get; set; } = string.Empty;
+        public bool IsCompleted { get; set; }
+    }
 }
